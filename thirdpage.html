@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Dream Wedding Budget</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="secondpage.html">Get Started</a></li>
+                <li><a href="thirdpage.html">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="todo-section">
+        <h2>Budget Items</h2>
+        <input type="text" id="search-bar" placeholder="Search items..." oninput="filterItems()">
+        
+        <div class="todo-list">
+            <ul id="todo-list">
+                <!-- Predefined budget items stored on the page -->
+                <li class="todo-item">
+                    <span class="item">Photobooth</span>
+                    <span class="budget">$400.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Flowers</span>
+                    <span class="budget">$500.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Shuttle Service</span>
+                    <span class="budget">$1,000.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Wedding & Reception Decorations</span>
+                    <span class="budget">$500.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Alcohol Servers</span>
+                    <span class="budget">$400.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Plates & Glasses</span>
+                    <span class="budget">$200.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Set Up (Venue)</span>
+                    <span class="budget">$600.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Clean-up (Venue)</span>
+                    <span class="budget">$275.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+                <li class="todo-item">
+                    <span class="item">Staffing (Venue)</span>
+                    <span class="budget">$250.00</span>
+                    <span class="cost">$0.00</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dream Wedding Budget. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
