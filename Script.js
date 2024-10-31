@@ -1,5 +1,3 @@
-// script.js
-
 function filterItems() {
     const searchValue = document.getElementById("search-bar").value.toLowerCase();
     const items = document.querySelectorAll(".todo-item");
